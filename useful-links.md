@@ -11,6 +11,10 @@ https://stackoverflow.com/questions/14668403/how-to-render-a-jekyll-markdown-pag
 ## Page Layout
 https://jekyllrb.com/docs/pages/
 
+https://jekyllrb.com/docs/step-by-step/04-layouts/
+
+https://jekyllrb.com/docs/step-by-step/05-includes/
+
 ## General Jekyll Features
 
 ### Front Matter

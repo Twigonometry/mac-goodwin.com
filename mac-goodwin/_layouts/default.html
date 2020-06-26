@@ -1,5 +1,18 @@
-<section>
-
-    {{ content }}
-    
-</section>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <nav>
+            {% include header.md %}
+        </nav>
+        <nav>
+            {% include nav.md %}
+        </nav>
+        <main>
+            {{ content }}
+        </main>
+    </body>
+</html>

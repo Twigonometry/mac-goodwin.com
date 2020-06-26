@@ -6,6 +6,8 @@ https://jekyllrb.com/docs/usage/
 ## File Structure
 https://jekyllrb.com/docs/structure/
 
+https://stackoverflow.com/questions/14668403/how-to-render-a-jekyll-markdown-page-on-sites-index
+
 ## Page Layout
 https://jekyllrb.com/docs/pages/
 

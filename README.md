@@ -5,23 +5,27 @@ The code for my personal website. Developed in Jekyll, and hosted with netlify
 
 To host this website locally, follow these steps
 
-Clone this repository:
+**Clone this repository:**
 
-`git@github.com:Twigonometry/mac-goodwin.com.git`
+`git clone git@github.com:Twigonometry/mac-goodwin.com.git`
 
-Install Jekyll:
+**Install Jekyll:**
 
 `gem install bundler jekyll`
 
-Navigate to website folder:
+**Navigate to website folder:**
 
 `cd mac-goodwin.com\mac-goodwin`
 
-Launch Server:
+**Launch Server:**
+
+Make sure you are in the *mac-goodwin* directory when you do this, not the parent directory *mac-goodwin&#46;com* !
 
 `bundle exec jekyll serve`
 
-Navigate to site in browser (at the following address by default - jekyll will tell you if this is different)
+**Navigate to site in browser**
+
+Site is hosted at the following address by default - Jekyll will tell you if this is different when you run `jekyll serve`
 
 `http://localhost:4000`
 

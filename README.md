@@ -1,6 +1,30 @@
 # mac-goodwin.com
 The code for my personal website. Developed in Jekyll, and hosted with netlify
 
+## Setup
+
+To host this website locally, follow these steps
+
+Clone this repository:
+
+`git@github.com:Twigonometry/mac-goodwin.com.git`
+
+Install Jekyll:
+
+`gem install bundler jekyll`
+
+Navigate to website folder:
+
+`cd mac-goodwin.com\mac-goodwin`
+
+Launch Server:
+
+`bundle exec jekyll serve`
+
+Navigate to site in browser (at the following address by default - jekyll will tell you if this is different)
+
+`http://localhost:4000`
+
 ## Website Code
 
 All code stored within mac-goodwin directory

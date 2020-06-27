@@ -21,6 +21,10 @@ https://jekyllrb.com/docs/step-by-step/05-includes/
 
 https://jekyllrb.com/docs/front-matter/
 
+### Meta Descriptions
+
+https://tosbourn.com/adding-descriptions-to-pages-with-jekyll/
+
 # Learning Liquid
 
 ## General Usage
@@ -50,3 +54,13 @@ https://docs.netlify.com/configure-builds/get-started/#basic-build-settings
 https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213
 
 https://docs.netlify.com/configure-builds/troubleshooting-tips/
+
+# Other
+
+## Where to find meta info
+
+https://www.mainstreetroi.com/where-are-the-webpage-titles-descriptions-and-headers/
+
+## Good meta info descriptions
+
+https://www.searchenginewatch.com/2016/05/26/how-to-write-meta-descriptions-for-seo-with-good-and-bad-examples/

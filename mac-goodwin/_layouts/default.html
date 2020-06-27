@@ -4,14 +4,13 @@
         <meta charset="utf-8">
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
         <title>{{ page.title }}</title>
+        {% include default-head.html %}
     </head>
     <body>
-        <nav>
-            {% include header.md %}
-        </nav>
-        <nav>
-            {% include nav.md %}
-        </nav>
+        {% include banner.html %}
+
+        {% include nav.md %}
+
         <main>
             {{ content }}
         </main>

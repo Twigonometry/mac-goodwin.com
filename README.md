@@ -1,5 +1,5 @@
 # mac-goodwin.com
-The code for my personal website. Developed in Jekyll, and hosted with netlify
+The code for my personal website. Developed in [Jekyll](https://jekyllrb.com/), and hosted with [Netlify](https://www.netlify.com/)
 
 ## Setup
 
@@ -33,19 +33,27 @@ Site is hosted at the following address by default - Jekyll will tell you if thi
 
 All code stored within mac-goodwin directory
 
-_site and jekyll-cache directories are excluded by gitignore - these will be generated locally when running jekyll serve
+*_site* and *jekyll-cache* directories are excluded by gitignore - these will be generated locally when running `jekyll serve`
 
-### Includes
+### _includes
 
 Content to be included in pages. Similar to partials in Rails
 
-### Layouts
+### _layouts
 
 Liquid page templates. Can contain liquid logic as well as objects
 
-### Posts
+### _posts
 
 Content for blog posts
+
+### assets
+
+*css* directory contains *styles.scss*, which serves as the main stylesheet for the site
+
+### _sass
+
+Stylesheets for site, to be imported into *styles.scss*
 
 ## Useful Links
 

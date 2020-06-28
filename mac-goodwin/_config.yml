@@ -1,3 +1,7 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: Mac Goodwin
+description: >- # this means to ignore newlines until "baseurl:"
+  My Portfolio of Programming and Writing Projects
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: mac__goodwin
+github_username:  Twigonometry

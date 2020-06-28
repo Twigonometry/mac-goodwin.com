@@ -88,3 +88,11 @@ https://www.searchenginewatch.com/2016/05/26/how-to-write-meta-descriptions-for-
 ## Linting Error for Front Matter
 
 https://talk.jekyllrb.com/t/fixing-vscode-scss-linting-errors-on-front-matter/1710
+
+## ISO Language Codes
+
+https://www.w3schools.com/tags/ref_language_codes.asp
+
+https://www.andiamo.co.uk/resources/iso-language-codes
+
+https://moz.com/community/q/what-s-the-difference-between-en-gb-and-en-uk-when-choosing-search-engines-in-campaign-set-up

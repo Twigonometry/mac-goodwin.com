@@ -7,3 +7,12 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
 }
+
+.banner {
+  width: 100%;
+  background-color: grey;
+}
+
+p {
+  color: red($color: #ff0000);
+}

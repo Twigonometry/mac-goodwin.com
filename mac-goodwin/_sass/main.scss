@@ -11,8 +11,35 @@ body {
 .banner {
   width: 100%;
   background-color: grey;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-p {
-  color: red($color: #ff0000);
+.nav {
+  width: 100%;
+  background-color: rgb(81, 81, 81);
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border: 1em;
+  border-top: 2em;
+  border-bottom: 2em;
+  padding: 1em;
+}
+
+.nav ul a:visited {
+  color: white;
+}
+
+.banner h1, .nav ul {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }

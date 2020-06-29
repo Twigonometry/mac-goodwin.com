@@ -93,6 +93,8 @@ https://www.searchenginewatch.com/2016/05/26/how-to-write-meta-descriptions-for-
 
 https://talk.jekyllrb.com/t/fixing-vscode-scss-linting-errors-on-front-matter/1710
 
+VSCode doesn't pick up on the phantom 'error' as long as the file is closed!
+
 ## ISO Language Codes
 
 https://www.w3schools.com/tags/ref_language_codes.asp
@@ -106,3 +108,25 @@ https://moz.com/community/q/what-s-the-difference-between-en-gb-and-en-uk-when-c
 https://bundler.io/rationale.html
 
 https://stackoverflow.com/questions/13101945/how-to-re-sync-gemfile-lock-on-changes-to-gemfile
+
+## Fonts
+
+### Adding Fonts to Jekyll
+
+https://stackoverflow.com/questions/39043393/how-can-i-add-custom-local-font-to-jekyll-site
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts
+
+### Heading Fonts
+
+https://www.elegantthemes.com/blog/resources/30-sans-serif-fonts-perfect-for-website-headings
+
+### Font Optimisation
+
+https://gregives.co.uk/blog/optimising-the-fonts-on-my-website/
+
+### Fonts Used
+
+[Bellotta Text](https://www.w3schools.com/howto/tryit.asp?font=Bellota%20Text)
+
+[Simplifica](https://www.behance.net/gallery/14209843/SIMPLIFICA-Typeface-Free)

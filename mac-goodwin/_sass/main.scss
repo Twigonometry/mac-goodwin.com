@@ -36,10 +36,8 @@ body {
   text-decoration: none;
   color: white;
   display: inline-block;
-  border: 1em;
-  border-top: 2em;
-  border-bottom: 2em;
-  padding: 1em;
+  padding: 0.8%;
+  margin: 0.25em 0 0.25em 1.1%;
 }
 
 .nav ul a:visited {
@@ -50,4 +48,14 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
+}
+
+.banner h1 {
+  padding: 0.8%;
+  margin-left: 1.1%;
+}
+
+main {
+  padding: 0.8%;
+  margin-left: 1.1%;
 }

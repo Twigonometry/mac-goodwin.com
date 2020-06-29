@@ -7,13 +7,16 @@
         <title>{{ page.title }} - {{ site.title }}</title>
         {% include default-head.html %}
     </head>
+    
     <body>
-        {% include banner.html %}
+        <div class="wrapper">
+            {% include banner.html %}
 
-        {% include nav.html %}
+            {% include nav.html %}
 
-        <main>
-            {{ content }}
-        </main>
+            <main>
+                {{ content }}
+            </main>
+        </div>
     </body>
 </html>

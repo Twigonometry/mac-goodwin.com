@@ -65,6 +65,8 @@ https://docs.netlify.com/domains-https/netlify-dns/#add-a-domain
 
 https://docs.netlify.com/configure-builds/get-started/#basic-build-settings
 
+https://docs.netlify.com/configure-builds/common-configurations/#jekyll
+
 ### Troubleshooting
 
 https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213
@@ -96,3 +98,9 @@ https://www.w3schools.com/tags/ref_language_codes.asp
 https://www.andiamo.co.uk/resources/iso-language-codes
 
 https://moz.com/community/q/what-s-the-difference-between-en-gb-and-en-uk-when-choosing-search-engines-in-campaign-set-up
+
+## Bundler
+
+https://bundler.io/rationale.html
+
+https://stackoverflow.com/questions/13101945/how-to-re-sync-gemfile-lock-on-changes-to-gemfile

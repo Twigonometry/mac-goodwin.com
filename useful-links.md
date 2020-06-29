@@ -73,6 +73,8 @@ https://community.netlify.com/t/support-guide-frequently-encountered-problems-du
 
 https://docs.netlify.com/configure-builds/troubleshooting-tips/
 
+https://docs.netlify.com/configure-builds/manage-dependencies/
+
 # Other
 
 ## Mardown Cheatsheet

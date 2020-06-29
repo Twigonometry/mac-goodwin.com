@@ -1,6 +1,8 @@
 # mac-goodwin.com
 The code for my personal website. Developed in [Jekyll](https://jekyllrb.com/), and hosted with [Netlify](https://www.netlify.com/)
 
+You can view the live site [here](https://mac-goodwin.com)
+
 ## Setup
 
 To host this website locally, follow these steps

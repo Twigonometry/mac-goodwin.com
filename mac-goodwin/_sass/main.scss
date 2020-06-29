@@ -18,10 +18,14 @@ body {
 
 .banner {
   width: 100%;
-  background-color: grey;
+  background-color: rgb(181, 181, 181);
   padding: 0;
   margin: 0;
   border: 0;
+}
+
+.banner h1 {
+  color: rgb(81, 81, 81);
 }
 
 .nav {
@@ -34,14 +38,14 @@ body {
 
 .nav ul a {
   text-decoration: none;
-  color: white;
+  color: rgb(184, 181, 181);
   display: inline-block;
-  padding: 0.8%;
+  padding: 0.3%;
   margin: 0.25em 0 0.25em 1.1%;
 }
 
 .nav ul a:visited {
-  color: white;
+  color: rgb(181, 181, 181);
 }
 
 .banner h1, .nav ul {
@@ -51,11 +55,21 @@ body {
 }
 
 .banner h1 {
-  padding: 0.8%;
+  padding: 0.3%;
   margin-left: 1.1%;
 }
 
 main {
-  padding: 0.8%;
+  padding: 0.3%;
   margin-left: 1.1%;
+}
+
+.text-block a {
+  text-decoration: none;
+  color: teal;
+  display: inline-block;
+}
+
+.text-block a:visited {
+  color: teal;
 }

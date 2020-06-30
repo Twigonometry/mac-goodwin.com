@@ -130,3 +130,7 @@ https://gregives.co.uk/blog/optimising-the-fonts-on-my-website/
 [Bellotta Text](https://www.w3schools.com/howto/tryit.asp?font=Bellota%20Text)
 
 [Simplifica](https://www.behance.net/gallery/14209843/SIMPLIFICA-Typeface-Free)
+
+## Borders with Percentages
+
+https://stackoverflow.com/questions/13474754/how-to-set-borders-thickness-in-percentages

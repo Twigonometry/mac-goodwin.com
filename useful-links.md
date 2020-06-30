@@ -142,6 +142,8 @@ https://gregives.co.uk/blog/optimising-the-fonts-on-my-website/
 
 [Simplifica](https://www.behance.net/gallery/14209843/SIMPLIFICA-Typeface-Free)
 
+[Raleway](https://fonts.google.com/specimen/Raleway?sidebar.open&selection.family=Raleway:wght@700)
+
 ## Borders with Percentages
 
 https://stackoverflow.com/questions/13474754/how-to-set-borders-thickness-in-percentages

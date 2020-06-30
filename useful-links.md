@@ -8,6 +8,9 @@ https://jekyllrb.com/docs/structure/
 
 https://stackoverflow.com/questions/14668403/how-to-render-a-jekyll-markdown-page-on-sites-index
 
+## Adding Pages
+https://blog.webjeda.com/new-page-jekyll/
+
 ## Page Layout
 https://jekyllrb.com/docs/pages/
 
@@ -20,6 +23,14 @@ https://jekyllrb.com/docs/step-by-step/05-includes/
 ### Front Matter
 
 https://jekyllrb.com/docs/front-matter/
+
+https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-front-matter/
+
+### Adding Liquid to Front Matter
+
+https://talk.jekyllrb.com/t/how-do-you-make-jekyll-execute-liquid-variables-in-front-matter/1638/2
+
+https://stackoverflow.com/questions/14487110/include-jekyll-liquid-template-data-in-a-yaml-variable
 
 ### Meta Descriptions
 

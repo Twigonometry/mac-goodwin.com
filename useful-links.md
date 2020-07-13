@@ -88,7 +88,7 @@ https://docs.netlify.com/configure-builds/manage-dependencies/
 
 # Other
 
-## Mardown Cheatsheet
+## Markdown Cheatsheet
 
 https://gist.github.com/roachhd/779fa77e9b90fe945b0c
 
@@ -121,6 +121,10 @@ https://bundler.io/rationale.html
 https://stackoverflow.com/questions/13101945/how-to-re-sync-gemfile-lock-on-changes-to-gemfile
 
 ## Fonts
+
+### Font Pairs
+
+https://fontpair.co/
 
 ### Adding Fonts to Jekyll
 

@@ -1,3 +1,7 @@
-<div class="writing-showcase">
-    <h3>{{ include.showcase-title }}</h3>
+<div class="writing-showcase" id={{ include.title }}>
+    {% capture path %}/writing/showcases/{{ include.path }}{% endcapture %}
+
+    <h3 id="title"><a href="{{ path }}">{{ include.title }}</a></h3>
+
+    <p id="description">{{ include.description }}</p>
 </div>

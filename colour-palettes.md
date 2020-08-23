@@ -12,6 +12,8 @@ Generated with [coolors](https://coolors.co/) and [colormind](http://colormind.i
 
 **(3)** African Violet: B47EB3
 
+**(4)** Rich Blue: 0946A5
+
 # Background Colours
 
 **(2)** Rich Black: 02020A
@@ -24,15 +26,29 @@ Generated with [coolors](https://coolors.co/) and [colormind](http://colormind.i
 
 **(3.5)** Auburn: A52422
 
+**(4)** Cotton Blue: 608EDA
+
+**(4)** Dark Brown: 251D1B
+
+**(4)** Sleep Well Black: 111110
+
 # Text
 
 **(1)** Grey-White: C6C5C2
 
 **(2)** Lavender Web: E1E2EF
 
+**(4)** Light Blue: 89AFE6
+
+**(4)** Light Grey: 979692
+
 ## Standard Text
 
 **(2)** Wisteria: B497D6
+
+**(4)** Grey Brown: 746164
+
+**(4)** Dark Grey: 52514F
 
 ## Links
 
@@ -49,3 +65,5 @@ Generated with [coolors](https://coolors.co/) and [colormind](http://colormind.i
 **(1)** Light Maroon: 764947
 
 **(2)** Russian Green: 69995D
+
+**(4)** Rusty Brown: 4B2A2B

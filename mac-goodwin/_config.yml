@@ -5,3 +5,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mac__goodwin
 github_username:  Twigonometry
+
+collections:
+  prog-showcases:
+    output: true
+  writing-showcases:
+    output: true

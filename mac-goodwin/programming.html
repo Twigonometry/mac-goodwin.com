@@ -6,4 +6,20 @@ description: My programming portfolio, with links to source code and my thoughts
 
 {% include programming_content.html %}
 
-{% include showcases/programming-showcase.html title="CTF Tools" description="A constant WIP, this repository is a collection of tools such as Password Crackers and Repeaters" path="ctf-tools.html" image-path="passcrack.JPG"%}
+<div id="showcases">
+    {% for item in site.prog-showcases %}
+        <div class="programming-showcase" id={{ item.title }}>
+            <div class="text">
+                {% capture path %}/programming/showcases/{{ item.showcase-path }}{% endcapture %}
+    
+                <h3 id="title"><a href="{{ path }}">{{ item.title }}</a></h3>
+    
+                <p id="description">{{ item.description }}</p>
+            </div>
+            
+            {% capture image-path %}/assets/images/programming/{{ item.image-path }}{% endcapture %}
+            
+            <img src="{{ image-path }}">
+        </div>
+    {% endfor %}
+</div>

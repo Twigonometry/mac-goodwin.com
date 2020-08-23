@@ -16,7 +16,8 @@ custom_font: https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap
         
                 <h3 id="title"><a href="{{ path }}">{{ item.title }}</a></h3>
 
-                <p id="description">{{ item.description }} First published in <a href="{{ item.first-pub-link }}">{{ item.first-pub-location }}</a></p>
+                <p id="description"><i>{{ item.title }}</i> {{ item.description }}</p>
+                <p id="first-pub">First published in <a href="{{ item.first-pub-link }}">{{ item.first-pub-location }}</a></p>
             </div>
         </div>
     {% endfor %}

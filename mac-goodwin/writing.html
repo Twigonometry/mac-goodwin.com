@@ -10,11 +10,11 @@ custom_css: showcases
 <div id="showcases">
     {% for item in site.writing-showcases %}
         <div class="writing-showcase" id={{ item.title }}>
-            {% capture path %}/writing/showcases/{{ item.showcase-path }}{% endcapture %}
-        
-            <h3 id="title"><a href="{{ path }}">{{ item.title }}</a></h3>
-
             <div class="text">
+                {% capture path %}/writing/showcases/{{ item.showcase-path }}{% endcapture %}
+        
+                <h3 id="title"><a href="{{ path }}">{{ item.title }}</a></h3>
+
                 <p id="description">{{ item.description }} First published in <a href="{{ item.first-pub-link }}">{{ item.first-pub-location }}</a></p>
             </div>
         </div>

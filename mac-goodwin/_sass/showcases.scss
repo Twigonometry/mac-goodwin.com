@@ -1,0 +1,33 @@
+#showcases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.writing-showcase, .programming-showcase {
+    width: 25%;
+    min-width: 350px;
+    display: flex;
+    margin: 2% 10px;
+    border-radius: 4px;
+}
+
+.writing-showcase .text, .programming-showcase .text {
+    margin: 0.5em;
+    min-width: 100px;
+}
+
+.programming-showcase img {
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 250px;
+    border-radius: 2px;
+    margin:0.7em 0.3em;
+    object-fit: cover;
+}
+
+.writing-showcase h3, .programming-showcase h3 {
+    font-weight: bold;
+}

@@ -2,6 +2,7 @@
 layout: default
 title: Writing
 description: My writing portfolio, with links to publications and my thoughts on the writing process; poetry, short stories, and more
+custom_css: showcases
 ---
 
 {% include writing_content.html %}
@@ -12,8 +13,10 @@ description: My writing portfolio, with links to publications and my thoughts on
             {% capture path %}/writing/showcases/{{ item.showcase-path }}{% endcapture %}
         
             <h3 id="title"><a href="{{ path }}">{{ item.title }}</a></h3>
-        
-            <p id="description">{{ item.description }} First published in <a href="{{ item.first-pub-link }}">{{ item.first-pub-location }}</a></p>
+
+            <div class="text">
+                <p id="description">{{ item.description }} First published in <a href="{{ item.first-pub-link }}">{{ item.first-pub-location }}</a></p>
+            </div>
         </div>
     {% endfor %}
 </div>

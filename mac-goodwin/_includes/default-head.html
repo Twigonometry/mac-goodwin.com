@@ -1,3 +1,17 @@
 <link rel="stylesheet" href="/assets/css/main.css">
 <link href='https://fonts.googleapis.com/css?family=Bellota Text' rel='stylesheet'>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"> 
+
+<!--Code snippet adapted from https://jreel.github.io/per-page-custom-css-in-jekyll/-->
+{% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="/assets/css/{{ stylesheet }}.css">
+    {% endfor %}
+{% endif %}
+
+{% if page.custom_font %}
+    {% for font_path in page.custom_font %}
+    <link href="{{ font_path }}" rel="stylesheet">
+    {% endfor %}
+{% endif %}
+<!--End of code snippet-->

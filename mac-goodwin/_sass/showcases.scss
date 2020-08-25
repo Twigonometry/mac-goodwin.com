@@ -5,6 +5,19 @@
     width: 100%;
 }
 
+#showcases a {
+    text-decoration: none;
+    color: teal;
+}
+
+#showcases a:visited {
+    color: teal;
+}
+
+#showcases a:hover {
+    text-decoration: underline;
+}
+
 .writing-showcase, .programming-showcase {
     width: 25%;
     min-width: 350px;

@@ -88,6 +88,14 @@ https://docs.netlify.com/configure-builds/manage-dependencies/
 
 # Other
 
+## Word -> HTML
+
+https://wordtohtml.net/
+
+https://word2cleanhtml.com/
+
+https://stackoverflow.com/questions/6151554/text-inside-div-not-showing-multiple-white-spaces-between-words
+
 ## Markdown Cheatsheet
 
 https://gist.github.com/roachhd/779fa77e9b90fe945b0c

@@ -1,3 +1,23 @@
 p {
     font-family: 'Roboto Mono', monospace;
 }
+
+/*
+.writing-showcase-content {
+    width: 100%;
+}
+
+.writing-showcase-content p {
+    white-space: pre;
+    word-wrap: break-word;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+*/
+
+.writing-showcase-content {
+    width: 100%;
+    white-space: pre;
+    /*overflow: hidden;*/
+}

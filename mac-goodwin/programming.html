@@ -2,6 +2,26 @@
 layout: default
 title: Programming
 description: My programming portfolio, with links to source code and my thoughts on how the project evolved; cybersecurity, AI, web apps, and game design
+custom_css: ['programming', 'showcases']
+custom_font: https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap
 ---
 
 {% include programming_content.html %}
+
+<div id="showcases">
+    {% for item in site.prog-showcases %}
+        <div class="programming-showcase" id={{ item.title }}>
+            <div class="text">
+                {% capture path %}/programming/showcases/{{ item.showcase-path }}{% endcapture %}
+    
+                <h3 id="title"><a href="{{ path }}">{{ item.title }}</a></h3>
+    
+                <p id="description">{{ item.description }}</p>
+            </div>
+            
+            {% capture image-path %}/assets/images/programming/{{ item.image-path }}{% endcapture %}
+            
+            <img src="{{ image-path }}">
+        </div>
+    {% endfor %}
+</div>

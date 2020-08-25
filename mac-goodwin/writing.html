@@ -2,6 +2,23 @@
 layout: default
 title: Writing
 description: My writing portfolio, with links to publications and my thoughts on the writing process; poetry, short stories, and more
+custom_css: ['writing', 'showcases']
+custom_font: https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap
 ---
 
 {% include writing_content.html %}
+
+<div id="showcases">
+    {% for item in site.writing-showcases %}
+        <div class="writing-showcase" id={{ item.title }}>
+            <div class="text">
+                {% capture path %}/writing/showcases/{{ item.showcase-path }}{% endcapture %}
+        
+                <h3 id="title"><a href="{{ path }}">{{ item.title }}</a></h3>
+
+                <p id="description"><i>{{ item.title }}</i> {{ item.description }}</p>
+                <p id="first-pub">First published in <a href="{{ item.first-pub-link }}">{{ item.first-pub-location }}</a></p>
+            </div>
+        </div>
+    {% endfor %}
+</div>

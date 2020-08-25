@@ -7,15 +7,30 @@
 
 #showcases a {
     text-decoration: none;
-    color: teal;
 }
 
-#showcases a:visited {
-    color: teal;
+.writing-showcase a {
+    color: $blueLink;
 }
 
-#showcases a:hover {
-    text-decoration: underline;
+.writing-showcase a:visited {
+    color: $blueLink;
+}
+
+.writing-showcase a:hover {
+    color: $goldSplash;
+}
+
+.programming-showcase a {
+    color: $darkGreenLink;
+}
+
+.programming-showcase a:visited {
+    color: $darkGreenLink;
+}
+
+.programming-showcase a:hover {
+    color: $goldSplash;
 }
 
 .writing-showcase, .programming-showcase {

@@ -17,6 +17,18 @@ body {
   width: 100%;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* banners */
+
 .banner {
   width: 100%;
   background-color: rgb(181, 181, 181);
@@ -44,6 +56,8 @@ body {
   color: rgb(81, 81, 81);
 }
 
+/* nav */
+
 .nav {
   font-family: 'Simplifica', 'Bellota Text', 'Helvetica', sans-serif;
   font-size: 28px;
@@ -52,6 +66,7 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
+  overflow: visible;
 }
 
 .nav ul {
@@ -72,6 +87,8 @@ body {
   color: rgb(181, 181, 181);
 }
 
+/* main */
+
 main {
   padding: 0.3%;
   margin: 0 1.1%;
@@ -80,11 +97,6 @@ main {
 main h3 {
   font-family: 'Bellota Text', 'Arial Narrow';
   font-size: 24px;
-}
-
-.text-block p {
-  font-family:  'Bellota Text', 'Arial Narrow';
-  font-size: 20px;
 }
 
 main a {
@@ -101,6 +113,23 @@ main a:hover {
   color: $goldSplash;
 }
 
+/* text block */
+
+.text-block p {
+  font-family:  'Bellota Text', 'Arial Narrow';
+  font-size: 20px;
+}
+
 .text-block hr {
   margin: 30px 0;
+}
+
+/* images */
+
+.wide-img {
+  width: 100%;
+}
+
+.round-img {
+  border-radius: 50%;
 }

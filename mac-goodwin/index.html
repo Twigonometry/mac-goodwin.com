@@ -4,7 +4,12 @@ title: Home
 ---
 
 <div class="flex-row">
-    <img class="round-img" src="assets/images/portraits/black-white portrait.jpg" style="max-width: 432px; max-height: 576px; padding: 2%;">
+    <picture class="round-img">
+        <source srcset="assets/images/portraits/black-white landscape.jpg" media="(max-width: 400px)">
+        <source srcset="assets/images/portraits/black-white portrait.jpg" style="max-width: 432px; max-height: 576px; padding: 2%;">
+        <img src="assets/images/portraits/black-white portrait.jpg" style="max-width: 432px; max-height: 576px; padding: 2%;">
+    </picture> 
+    
 
     <div class="flex-col" style="max-width: 30%; padding: 2%;">
         <h3>Hi, I'm Mac Goodwin</h3>

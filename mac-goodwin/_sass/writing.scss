@@ -5,9 +5,16 @@ p {
 .writing-showcase-content {
     width: 100%;
     white-space: pre;
-    /*overflow: hidden;*/
+    line-height: 1.45vw;
 }
 
 .writing-showcase-content p {
     display: inline;
+    font-size: 1.45vw;
+}
+
+@media only screen and (min-width: 1390px) {
+    .writing-showcase-content p {
+        font-size: 20px;
+    }
 }

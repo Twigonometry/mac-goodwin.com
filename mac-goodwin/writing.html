@@ -23,7 +23,9 @@ custom_font: https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap
 
                 <p id="description"><i>{{ item.title }}</i> {{ item.description }}</p>
                 {% if item.first-pub-link != "none" %}
-                    <p id="first-pub">First published in <a href="{{ item.first-pub-link }}">{{ item.first-pub-location }}</a></p>
+                    <p id="first-pub">First published in <a href="{{ item.first-pub-link }}">{{ item.first-pub-location }}</a> on {{ item.date-string }}</p>
+                {% else %}
+                    <p>Published on {{ item.date-string }}</p>
                 {% endif %}
             </div>
         </div>

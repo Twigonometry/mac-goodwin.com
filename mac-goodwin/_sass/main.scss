@@ -17,6 +17,19 @@ body {
   width: 100%;
 }
 
+/* row-col-flex is a row on big screens and a column on small screens */
+.row-col-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 480px) {
+  .row-col-flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -124,6 +137,16 @@ main a:hover {
   margin: 30px 0;
 }
 
+#intro-block {
+  padding: 2%;
+}
+
+@media screen and (min-width: 480px) {
+  #intro-block {
+    max-width: 30%;
+  }
+}
+
 /* images */
 
 .wide-img {
@@ -132,4 +155,18 @@ main a:hover {
 
 .round-img {
   border-radius: 50%;
+}
+
+#profile-img {
+  max-width: 432px;
+  max-height: 576px;
+  padding: 2%;
+}
+
+/* profile image only round on large screens */
+
+@media screen and (min-width: 480px) {
+  #profile-img {
+    border-radius: 50%;
+  }
 }

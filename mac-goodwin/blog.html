@@ -7,14 +7,20 @@ description: Blog posts about my writing, programming projects, and anything els
 
 <div class="subpage_banner" id="blog_banner">
     <h2>Blog</h2>
+    <hr>
 </div>
 
-<div id="categories">
-    <ul>
-        {% for cat in site.blog_categories %}
-            <a href="/blog/{{ cat | downcase }}">{{ cat }}</a>
-        {% endfor %}
-    </ul>
+<div class="flex-row">
+    <div id="categories">
+        <p>Topic:</p>
+        <ul>
+            {% for cat in site.blog_categories %}
+                <a href="/blog/{{ cat | downcase }}">{{ cat }}</a>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <div id="sub-content">
+        <p>More content to be added soon!</p>
+    </div>
 </div>
-
-<p>More content to be added soon!</p>

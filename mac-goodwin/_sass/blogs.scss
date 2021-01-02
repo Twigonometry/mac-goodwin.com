@@ -1,20 +1,30 @@
 #categories {
     font-size: 28px;
-    //width: 80%;
+    max-width: 10%;
     background-color: #b9baa3;
     border-radius: 15px;
+    // height: 100vh;
+    height: 700px;
 }
 
-#categories ul {
+@media screen and (min-height: 800px) {
+    #categories {
+        height: 650px;
+        max-width: 20%;
+    }
+}
+
+#categories ul, #categories p {
     padding: 0;
-    margin: 0;
+    margin: 5px;
     border: 0;
 }
 
 #categories a {
     text-decoration: none;
     color: #764947;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     padding: 0.3%;
     margin: 0.25em 0 0.25em 1.1%;
 }
@@ -31,3 +41,7 @@ h1 {
 // #blog_banner div, #blog_banner h2 {
 //     display: inline-block;
 // }
+
+#sub-content {
+    max-width: 90%;
+}

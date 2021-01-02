@@ -22,14 +22,21 @@
                 {{ content }}
 
                 {% assign cat = page.cat_code %}
-                <p>{{ cat }}</p>
-                <!-- <p>{{ site.categories }}</p> -->
-                <!-- <p>{{ site.categories[cat] }}</p> -->
-                <!-- <p>{{ site.categories[cat[0]] }}</p> -->
-                {% for post in site.categories[cat] %}
-                    <!-- <p>hello</p> -->
-                    <p>{{ post.title }}</p>
-                {% endfor %}
+                
+                <div id="showcases" class="blog-showcases">
+                    {% for post in site.categories[cat] %}
+                        <div class="blog-showcase">
+                            <div class="text">
+                                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    
+                                <p>{{ post.date | date: "%a, %b %d, %Y" }}</p>
+    
+                                <p>{{ post.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                
             </main>
         </div>
     </body>

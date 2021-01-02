@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-GB" }}">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+        <meta charset="utf-8">
+        <title>{{ page.title }} - {{ site.title }}</title>
+        {% include default-head.html %}
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            {% include banner.html %}
+
+            {% include nav.html %}
+
+            <main>
+                <a class="back-button" href="/blog">< Back to Blogs</a>
+
+                <h1>{{ page.blog_header }}</h1>
+
+                {{ content }}
+
+                {% assign cat = page.cat_code %}
+                <p>{{ cat }}</p>
+                <!-- <p>{{ site.categories }}</p> -->
+                <!-- <p>{{ site.categories[cat] }}</p> -->
+                <!-- <p>{{ site.categories[cat[0]] }}</p> -->
+                {% for post in site.categories[cat] %}
+                    <!-- <p>hello</p> -->
+                    <p>{{ post.title }}</p>
+                {% endfor %}
+            </main>
+        </div>
+    </body>
+</html>

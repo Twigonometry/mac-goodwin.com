@@ -1,20 +1,45 @@
 #categories {
     font-size: 28px;
-    max-width: 10%;
+    width: 8%;
     background-color: #b9baa3;
     border-radius: 15px;
-    // height: 100vh;
-    height: 700px;
+    height: 730px;
 }
 
-@media screen and (min-height: 800px) {
+#sub-content {
+    width: 88%;
+    padding-left: 4%;
+}
+
+// screens < 650px tall
+
+@media screen and (max-height: 650px) {
     #categories {
-        height: 650px;
-        max-width: 20%;
+        height: 400px;
+    }
+}
+
+// screens < 750px tall
+
+@media screen and (min-height: 651px) and (max-height: 750px) {
+    #categories {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #categories {
+        width: 20%;
+    }
+
+    #sub-content {
+        width: 77%;
+        padding-left: 3%;
     }
 }
 
 #categories ul, #categories p {
+    text-align: center;
     padding: 0;
     margin: 5px;
     border: 0;
@@ -36,12 +61,4 @@
 
 h1 {
     margin-top: 0;
-}
-
-// #blog_banner div, #blog_banner h2 {
-//     display: inline-block;
-// }
-
-#sub-content {
-    max-width: 90%;
 }

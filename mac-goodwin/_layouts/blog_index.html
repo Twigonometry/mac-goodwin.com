@@ -18,13 +18,13 @@
                 <div class="subpage_banner">
                     <h2>{{ page.blog_header }}</h2>
                     <hr>
-                    <a class="back-button" href="/blog">< Back to Blogs</a>
                 </div>
 
                 <div class="flex-row">
                     <div id="categories">
                         <p>Topic:</p>
                         <ul>
+                            <a href="/blog">All</a>
                             {% for cat in site.blog_categories %}
                                 <a href="/blog/{{ cat | downcase }}">{{ cat }}</a>
                             {% endfor %}

@@ -15,9 +15,16 @@
             {% include nav.html %}
 
             <main>
-                <a class="back-button" href="/blog">< Back to Blogs</a>
-
-                <h1>{{ page.blog_header }}</h1>
+                <div class="subpage_banner">
+                    <!-- <div class="flex-row"> -->
+                        <div class="vertical-centre">
+                            <a class="back-button" href="/blog">< Back to Blogs</a>
+                        
+                            <h2>{{ page.blog_header }}</h1>
+                        </div>
+                    <!-- </div> -->
+                    <hr>
+                </div>
 
                 {{ content }}
 

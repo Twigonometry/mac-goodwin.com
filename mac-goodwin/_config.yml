@@ -16,3 +16,6 @@ collections:
     output: true
   writing-showcases:
     output: true
+  
+sass:
+  sass_dir: ./_sass

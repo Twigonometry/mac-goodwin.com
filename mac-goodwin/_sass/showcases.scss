@@ -33,6 +33,10 @@
     color: $goldSplash;
 }
 
+.writing-showcase, .programming-showcase, .blog-showcase {
+    max-width: 100%;
+}
+
 .writing-showcase, .programming-showcase {
     width: 25%;
     min-width: 350px;
@@ -42,9 +46,15 @@
     border-radius: 4px;
 }
 
-.writing-showcase .text, .programming-showcase .text {
+.writing-showcase .text, .programming-showcase .text, .blog-showcase .text {
     margin: 0.5em;
     min-width: 100px;
+}
+
+.writing-showcase .text p, .programming-showcase .text p, .blog-showcase .text p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .programming-showcase img {
@@ -59,4 +69,22 @@
 
 .writing-showcase h3, .programming-showcase h3 {
     font-weight: bold;
+}
+
+.blog-showcases {
+    flex-direction: column;
+}
+
+@media screen and (min-width: 480px) {
+    .blog-showcases {
+        max-width: 23%;
+    }
+  }
+
+.blog-showcase {
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(184, 181, 181);
+    border-radius: 4px;
+    margin: 3% 0;
 }

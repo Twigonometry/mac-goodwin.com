@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-GB" }}">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+        <meta charset="utf-8">
+        <title>{{ page.title }} - {{ site.title }}</title>
+        {% include default-head.html %}
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            {% include banner.html %}
+
+            {% include nav.html %}
+
+            <main>
+                <div class="subpage_banner">
+                    <h2>{{ page.blog_header }}</h2>
+                    <hr>
+                </div>
+
+                <div class="flex-row">
+                    <div id="categories">
+                        <p>Topic:</p>
+                        <ul>
+                            <a href="/blog">All</a>
+                            {% for cat in site.blog_categories %}
+                                <a href="/blog/{{ cat | downcase }}">{{ cat }}</a>
+                            {% endfor %}
+                        </ul>
+                    </div>
+    
+                    <div id="sub-content">
+                        <div class="flex-row">
+                            {% assign cat = page.cat_code %}
+                        
+                            <div id="showcases" class="blog-showcases">
+                                {% for post in site.categories[cat] %}
+                                    <div class="blog-showcase">
+                                        <div class="text">
+                                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                
+                                            <p>{{ post.date | date: "%a, %b %d, %Y" }}</p>
+                
+                                            <p>{{ post.description }}</p>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            
+                            <div class="text-container">
+                                {{ content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </main>
+        </div>
+    </body>
+</html>

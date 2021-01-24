@@ -16,32 +16,44 @@
 
             <main>
                 <div class="subpage_banner">
-                    <!-- <div class="flex-row"> -->
-                        <div class="vertical-centre">
-                            <a class="back-button" href="/blog">< Back to Blogs</a>
-                        
-                            <h2>{{ page.blog_header }}</h1>
-                        </div>
-                    <!-- </div> -->
+                    <h2>{{ page.blog_header }}</h2>
                     <hr>
+                    <a class="back-button" href="/blog">< Back to Blogs</a>
                 </div>
 
-                {{ content }}
-
-                {% assign cat = page.cat_code %}
+                <div class="flex-row">
+                    <div id="categories">
+                        <p>Topic:</p>
+                        <ul>
+                            {% for cat in site.blog_categories %}
+                                <a href="/blog/{{ cat | downcase }}">{{ cat }}</a>
+                            {% endfor %}
+                        </ul>
+                    </div>
+    
+                    <div id="sub-content">
+                        <div class="flex-row">
+                            {% assign cat = page.cat_code %}
+                        
+                            <div id="showcases" class="blog-showcases">
+                                {% for post in site.categories[cat] %}
+                                    <div class="blog-showcase">
+                                        <div class="text">
+                                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 
-                <div id="showcases" class="blog-showcases">
-                    {% for post in site.categories[cat] %}
-                        <div class="blog-showcase">
-                            <div class="text">
-                                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    
-                                <p>{{ post.date | date: "%a, %b %d, %Y" }}</p>
-    
-                                <p>{{ post.description }}</p>
+                                            <p>{{ post.date | date: "%a, %b %d, %Y" }}</p>
+                
+                                            <p>{{ post.description }}</p>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            
+                            <div class="text-container">
+                                {{ content }}
                             </div>
                         </div>
-                    {% endfor %}
+                    </div>
                 </div>
                 
             </main>

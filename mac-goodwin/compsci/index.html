@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Programming
+title: Comp Sci
 description: My programming portfolio, with links to source code and my thoughts on how the project evolved; cybersecurity, AI, web apps, and game design
-custom_css: ['programming', 'showcases']
+custom_css: ['compsci', 'showcases']
 custom_font: https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap
 ---
 
 <div class="subpage_banner">
-    <h2>Programming</h2>
+    <h2>Computer Science</h2>
     <hr>
 </div>
 
@@ -17,7 +17,7 @@ custom_font: https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=sw
     {% for item in site.prog-showcases %}
         <div class="programming-showcase" id={{ item.title }}>
             <div class="text">
-                {% capture path %}/programming/showcases/{{ item.showcase-path }}{% endcapture %}
+                {% capture path %}/compsci/showcases/{{ item.showcase-path }}{% endcapture %}
     
                 <h3 id="title"><a href="{{ path }}">{{ item.title }}</a></h3>
     

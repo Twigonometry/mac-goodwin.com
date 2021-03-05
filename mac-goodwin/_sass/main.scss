@@ -177,6 +177,27 @@ main a:hover {
   object-fit: cover;
 }
 
+.caption {
+  font-size: 12px;
+  font-family: 'Bellota Text', 'Arial Narrow';
+  color: gray;
+  font-style: italic;
+}
+
+// .image-row {
+//   padding: 0;
+// }
+
+.image-row img {
+  max-width: 100%;
+  height: auto;
+  padding: 0 1.5%;
+}
+
+.image-row p {
+  padding: 0 1.5%;
+}
+
 /* profile image only round on large screens */
 
 @media screen and (min-width: 480px) {

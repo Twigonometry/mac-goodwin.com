@@ -1,5 +1,10 @@
-p {
+p, li {
     font-family: 'Share Tech Mono', monospace;
+}
+
+li {
+    list-style-type: square;
+    font-size: 18px;
 }
 
 img {

@@ -8,6 +8,22 @@ custom_css: ['blogs']
 ---
 # Hack the Box - Bucket
 
+Contents
+- [Enumeration](#enumeration)
+- [Website](#website)
+  - [Shell Page](#shell-page)
+  - [Exfiltrating Data](#exfiltrating-data)
+  - [Attacking the Bucket](#attacking-the-bucket)
+  - [Uploading a Web Shell](#uploading-a-web-shell)
+- [Shell as www-data](#shell-as-www-data)
+- [Shell as roy](#shell-as-roy)
+  - [Basic Linux Enumeration](#basic-linux-enumeration)
+  - [Bucket App](#bucket-app)
+    - [Accessing the Local Site](#accessing-the-local-site)
+  - [Creating the Alerts Table](#creating-the-alerts-table)
+  - [Creating a Malicious Alert](#creating-a-malicious-alert)
+  - [Final Payload](#final-payload---downloading-root-private-key)
+
 # Overview
 
 I did this box back in December 2020. It was the fifth box I'd done, and only the second medium-rated box I'd tried. It took me a few days of pretty non-stop work to get User, and I had Root after a week.
@@ -900,7 +916,7 @@ drwxr-x---+ 10 root root   4096 Feb 10 12:29 vendor
 
 Besides an amusing misspelling of skyscraper, the PHP code at the top is the only interesting part:
 
-![PHP code with highlighted sections](/assets/images/blog/Pasted image 20210429102509.png)
+![PHP code with highlighted sections](/assets/images/blogs/Pasted image 20210429102509.png)
 
 It seems to create a PDF file using the contents of a file on the box. It reads which file to turn into a PDF from the database' `alerts` table - which does not currently exist.
 
@@ -924,7 +940,7 @@ roy@bucket:~$
 
 Now we can navigate to `localhost:8000` and view the 'local' site on the remote machine!
 
-![Seeing the bucket app staging site](/assets/images/blog/Pasted image 20210429110814.png)
+![Seeing the bucket app staging site](/assets/images/blogs/Pasted image 20210429110814.png)
 
 ### Testing the Web App
 
@@ -1185,11 +1201,11 @@ result.pdf.1                                       100%[========================
 
 This outputs a pdf into our local filesystem:
 
-![Seeing a PDF file in our folder with a paperclip icon](/assets/images/blog/Pasted image 20210429124611.png)
+![Seeing a PDF file in our folder with a paperclip icon](/assets/images/blogs/Pasted image 20210429124611.png)
 
 Clicking the paperclip gives us the SSH key!
 
-![An SSH key as an attachment](/assets/images/blog/Pasted image 20210429124714.png)
+![An SSH key as an attachment](/assets/images/blogs/Pasted image 20210429124714.png)
 
 We can copy and paste and save this key, then SSH in as root:
 
@@ -1200,3 +1216,5 @@ We can copy and paste and save this key, then SSH in as root:
 root@bucket:~# cat root.txt 
 d2d9f1dd102ca4d5bd9b9ebf62e3f604
 ```
+
+That's the box!

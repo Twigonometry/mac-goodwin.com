@@ -1039,7 +1039,7 @@ In general it's good to test things locally before sending them at the remote ap
 
 # Exploit Chain
 
-We need to chain together our [XSS](#25---deserialisation|deserialisation]]-and-[[30---xss) exploits by doing the following:
+We need to chain together our [XSS](#xss-in-admin-panel) and Deserialisation(#deserialisation) exploits by doing the following:
 - creating a 'target cereal' - this is a cereal containing a maliciously crafted JSON that will be deserialised and download a shell from our box to the remote machine
 - creating an 'XSS cereal' - this is the cereal that will trigger the deserialisation of the target when an admin user (hopefully) views it on the requests page
 

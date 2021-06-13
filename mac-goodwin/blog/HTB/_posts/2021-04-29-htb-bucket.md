@@ -2,7 +2,7 @@
 layout: post
 layout: default
 title: "Bucket"
-description: "My writeup for the HacktheBox Bucket Machine. An extremely fun medium-rated machine that involved AWS Localstack and exploiting a locally hosted website"
+description: "My writeup for the HacktheBox Bucket Machine. An extremely fun medium-rated machine that involved AWS Localstack and exploiting a locally hosted website."
 category_string: "Hack the Box (HTB)"
 custom_css: ['blogs']
 ---

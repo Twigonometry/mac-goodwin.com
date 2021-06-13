@@ -53,6 +53,12 @@ As with other writeups, this may contain screenshots dated from after the box re
 
 I came back to this box to do the writeup after watching a couple of other videos and writeups on it, and found some nice alternative ways to do what I did originally. Revisiting the box really helped me analyse and be critical of my methodology the first time round, and I actually managed to pop a shell today using a certain method when I couldn't a few months ago.
 
+---
+
+I used my new <a href="www.github.com/Twigonometry/writeup-converter">writeup converter tool</a> to port this over to my site - give it a try!
+
+You can also view this writeup in my [Cybersecurity Notes repository](https://github.com/Twigonometry/Cybersecurity-Notes).
+
 ## Ratings
 
 I rated user a 3 for difficulty, and root a 4. The exploits weren't super complicated, just a little fiddly, especially when trying to return a shell. The initial APK exploit was really cool, and something I'd never heard of before. Enumeration was all pretty simple, and the final step to root was also easy. The meat of the box was the initial foothold and the escalation to `pwn`, so I'm sort of happy with the final step being simple.

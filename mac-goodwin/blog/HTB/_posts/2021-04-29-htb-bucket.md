@@ -1,11 +1,12 @@
 ---
 layout: post
 layout: default
-title: "HTB - Bucket"
+title: "Bucket"
 description: "My writeup for the HacktheBox Bucket Machine. An extremely fun medium-rated machine that involved AWS Localstack and exploiting a locally hosted website"
 category_string: "Hack the Box (HTB)"
 custom_css: ['blogs']
 ---
+
 # Hack the Box - Bucket
 
 Contents
@@ -25,6 +26,10 @@ Contents
   - [Final Payload](#final-payload---downloading-root-private-key)
 
 # Overview
+
+|IP|User-Rated Difficulty|OS|Date Started|Date User Completed|Date Root Completed|
+|---|---|---|---|---|---|
+|10.10.10.212|5.7|Linux|2020-12-15|2020-12-18|2020-12-22|
 
 I did this box back in December 2020. It was the fifth box I'd done, and only the second medium-rated box I'd tried. It took me a few days of pretty non-stop work to get User, and I had Root after a week.
 

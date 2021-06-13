@@ -107,10 +107,14 @@ custom_font: https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=sw
     
                 <p id="description">{{ item.description }}</p>
             </div>
+
+            {% if item.image-path %}
             
-            {% capture image-path %}/assets/images/programming/{{ item.image-path }}{% endcapture %}
+                {% capture image-path %}/assets/images/programming/{{ item.image-path }}{% endcapture %}
+                
+                <img src="{{ image-path }}">
             
-            <img src="{{ image-path }}">
+            {% endif %}
         </div>
     {% endfor %}
 </div>

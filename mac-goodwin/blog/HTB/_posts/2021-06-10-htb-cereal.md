@@ -61,7 +61,7 @@ I only managed to finish the user stage of this box (although that was no small 
 
 ---
 
-I used my new <a href="www.github.com/Twigonometry/writeup-converter">writeup converter tool</a> to port this over to my site - give it a try!
+I used my new <a href="http://www.github.com/Twigonometry/writeup-converter">writeup converter tool</a> to port this over to my site - give it a try!
 
 You can also view this writeup in my [Cybersecurity Notes repository](https://github.com/Twigonometry/Cybersecurity-Notes).
 

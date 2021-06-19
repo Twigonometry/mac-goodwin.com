@@ -1026,7 +1026,7 @@ import { MarkdownPreview } from 'react-marked-markdown'
 
 ReactDOM.render(
 <MarkdownPreview
-markedOptions={{ sanitize: true }}
+markedOptions=\{\{ sanitize: true \}\}
 value={'[XSS](javascript: alert`1`)'}
 />,
 document.getElementById('root')

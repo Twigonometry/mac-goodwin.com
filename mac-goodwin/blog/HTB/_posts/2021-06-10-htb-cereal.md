@@ -9,7 +9,7 @@ custom_css: ['blogs']
 
 # Hack the Box - Cereal (User Only)
 
-Contents
+# Contents
 - [Enumeration](#enumeration)
 - [Website](#website)
 - [source.cereal.htb](#sourcecerealhtb-1)
@@ -1019,6 +1019,7 @@ I googled "markdown preview xss" first, but that gave me some [generic markdown 
 
 This [snyk post](https://snyk.io/vuln/npm:react-marked-markdown:20180517) and corresponding [git repo](https://github.com/advisories/GHSA-m7qm-r2r5-f77q) looked more promising. They described a proof of concept in the `value` field of the `MarkdownPreview` element:
 
+{% raw %}
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -1026,12 +1027,13 @@ import { MarkdownPreview } from 'react-marked-markdown'
 
 ReactDOM.render(
 <MarkdownPreview
-markedOptions=\{\{ sanitize: true \}\}
+markedOptions={{ sanitize: true }}
 value={'[XSS](javascript: alert`1`)'}
 />,
 document.getElementById('root')
 )
 ```
+{% endraw %}
 
 Our cereal's `title` is inserted into this field! So in theory we can create one with a title similar to the following:
 

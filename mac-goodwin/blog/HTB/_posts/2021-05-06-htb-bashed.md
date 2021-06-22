@@ -2,7 +2,7 @@
 layout: post
 layout: default
 title: "Bashed"
-description: "My writeup for the HacktheBox Bashed Machine, a box that involved finding a built-in PHP shell on a website."
+description: "My writeup for the HacktheBox Bashed Machine, a box that involved finding a built-in PHP shell on a website for foothold, and exploiting an automated root process for root."
 category_string: "Hack the Box (HTB)"
 custom_css: ['blogs']
 date: 2021-05-06

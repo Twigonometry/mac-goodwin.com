@@ -5,6 +5,7 @@ title: "Writeup"
 description: "My writeup for the HacktheBox Writeup machine. This was a really fun box that used a CMS vulnerability to grab a user password, and a MOTD exploit for root."
 category_string: "Hack the Box (HTB)"
 custom_css: ['blogs']
+date: 2021-08-01 16:00:00
 ---
 
 # Hack the Box - Writeup

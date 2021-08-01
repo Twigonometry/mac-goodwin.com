@@ -5,6 +5,7 @@ title: "Shocker"
 description: "My writeup for the HacktheBox Shocker machine. An easy box that involved exploiting Shellshock followed by a Perl GTFOBin."
 category_string: "Hack the Box (HTB)"
 custom_css: ['blogs']
+date: 2021-08-01 12:00:00
 ---
 
 # Hack the Box - Shocker

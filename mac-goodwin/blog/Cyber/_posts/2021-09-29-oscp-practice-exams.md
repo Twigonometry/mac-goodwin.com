@@ -64,7 +64,7 @@ I took plenty of breaks, and towards the end of the night I got some footholds. 
 - Cronos (Hack the Box) - 20 points
 - Bastard (Hack the Box) - 20 points
 - Kotarak (Hack the Box) - 25 points
-- Brainpan (Vulnhub) - 25 points (Buffer Overflow)
+- Brainpan ([Vulnhub](https://www.vulnhub.com/entry/brainpan-1,51/)) - 25 points (Buffer Overflow)
 
 ### Timestamps
 

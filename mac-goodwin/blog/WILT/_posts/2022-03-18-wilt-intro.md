@@ -3,7 +3,7 @@ layout: post
 layout: default
 title: "What I'm Listening To - Introduction"
 description: "An introduction to WILT, my music blog series."
-category_string: "none"
+category_string: "What I'm Listening To (WILT)"
 custom_css: ['blogs']
 ---
 

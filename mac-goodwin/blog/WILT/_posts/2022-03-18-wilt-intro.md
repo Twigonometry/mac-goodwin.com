@@ -14,4 +14,4 @@ With that said, I hope you enjoy this series. I plan to talk a bit about some of
 
 Some articles will cover lists of albums, and some will focus on a single record. I'm going to do a piece on every record I own (at the moment I'm buying them much faster than I'm writing these blogs), and I might even throw in some live performance reviews while I'm at it.
 
-For now, I hope you enjoy my first piece - my review of Widowspeak's 2022 record, *The Jacket*!
+For now, I hope you enjoy my first piece - [my review](https://www.mac-goodwin.com/blog/wilt/2022/03/18/widowspeak-the-jacket.html) of Widowspeak's 2022 record, *The Jacket*!

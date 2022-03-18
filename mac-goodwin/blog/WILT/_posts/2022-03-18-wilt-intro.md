@@ -1,3 +1,12 @@
+---
+layout: post
+layout: default
+title: "What I'm Listening To - Introduction"
+description: "An introduction to WILT, my music blog series."
+category_string: "none"
+custom_css: ['blogs']
+---
+
 # Introduction to WILT
 
 Welcome to *What I'm Listening To*. This is the column on my website I've most wanted to start - unfortunately it is *long* overdue. I started writing it in 2020 and planned to release my Albums of the Year list, but wanted to write an introduction before I did - and I simply never finished it. Today I'm making a commitment to write this first article, and hopefully keep this blog alive! Part of the reason for reviving this idea is because of some of the excellent albums that have come out recently - I really wanted to write about them, so here I am. It shouldn't be too hard to publish blogs for the first few weeks, because I can harvest all of the half-baked articles from two years ago - so stay tuned!

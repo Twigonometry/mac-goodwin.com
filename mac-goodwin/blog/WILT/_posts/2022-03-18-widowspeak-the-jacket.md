@@ -1,3 +1,12 @@
+---
+layout: post
+layout: default
+title: "Widowspeak - The Jacket (Review)"
+description: "My review of Widowspeak's 2022 record, the Jacket."
+category_string: "none"
+custom_css: ['blogs']
+---
+
 # Widowspeak - The Jacket (Review)
 
 *Let that be enough*

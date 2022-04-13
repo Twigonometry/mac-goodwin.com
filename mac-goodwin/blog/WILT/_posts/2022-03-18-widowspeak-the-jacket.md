@@ -3,8 +3,9 @@ layout: post
 layout: default
 title: "Widowspeak - The Jacket (Review)"
 description: "My review of Widowspeak's 2022 record, the Jacket."
-category_string: "none"
+category_string: "What I'm Listening To (WILT)"
 custom_css: ['blogs']
+date: 2022-03-18 00:00:01
 ---
 
 # Widowspeak - The Jacket (Review)

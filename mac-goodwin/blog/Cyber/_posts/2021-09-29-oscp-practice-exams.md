@@ -3,7 +3,7 @@ layout: post
 layout: default
 title: "OSCP Practice Exam Writeups"
 description: "Writeups of two unofficial OSCP practice exams, with sample reports."
-category_string: "What I'm Listening To (WILT)"
+category_string: "Cybersecurity"
 custom_css: ['blogs']
 ---
 

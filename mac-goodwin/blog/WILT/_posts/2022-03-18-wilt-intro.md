@@ -1,10 +1,11 @@
 ---
 layout: post
 layout: default
-title: "What I'm Listening To - Introduction"
+title: "Introduction"
 description: "An introduction to WILT, my music blog series."
 category_string: "What I'm Listening To (WILT)"
 custom_css: ['blogs']
+date: 2022-03-18 00:00:00
 ---
 
 # Introduction to WILT

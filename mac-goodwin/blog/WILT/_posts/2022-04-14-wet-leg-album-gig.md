@@ -7,7 +7,7 @@ category_string: "What I'm Listening To (WILT)"
 custom_css: ['blogs']
 ---
 
-# Wet Leg - Debut Album and Launch Gig Review
+# Wet Leg - Debut Album & Launch Gig Review
 
 *I don't wanna listen to your band*
 

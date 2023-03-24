@@ -27,6 +27,8 @@ I hope this blog (which I know is just one of many rambling OSCP journey posts) 
 
 If you'd rather not read more, I'll be adding a lot of resources to my [Cybersecurity Notes](https://github.com/Twigonometry/Cybersecurity-Notes/) repository whenever I get time, including cheatsheets, notes on my methodology, and key lessons learned. But if you want a deeper dive, read on to find out more about my background, how I prepared, and my strategies during the exam!
 
+I've added a quick [update](#slightly-salty-update---24-03-2023) to this post since the 2022 and 2023 course updates, where I give a more in-depth review of whether I think the OSCP is good value for money.
+
 ## Contents
 
 - [My Background](#my-background)
@@ -258,3 +260,17 @@ Whatever I end up doing, whether it's threat modelling or cybersecurity educatio
 As for other certifications, I *may* have slightly caught the OffSec addiction, but I'm going to focus on my degree (and earning some money to finance other potential courses) before I try the next cert.
 
 With all that said, if you can afford to do the OSCP I highly recommend it and I hope this post helps you succeed. Thanks for reading!
+
+## (Slightly Salty) Update - 24-03-2023
+
+I'm adding a quick update to this post after the two OSCP updates in [2022](https://www.offsec.com/offsec/oscp-exam-structure/) and [2023](https://www.offsec.com/offsec/pen-200-2023/).
+
+The first modernised the exam, placing more of an emphasis on AD and removing Buffer Overflows as a guaranteed initial access vector for one of the boxes. I was happy to see these changes at the time, as realistically you could pass your OSCP without ever touching the AD content and nobody would know (not that I did that...). AD is a crucial skill for enterprise penetration testing, whereas memory corruption vulnerabilities are, as I understand it, still common but unlikely to come up for junior penetration testers and more commonly explored by vulnerability researchers (e.g. in Operating Systems and browsers) - and certainly not 'vanilla' ones with no modern protections. The new exam format requires the completion of a series of linked AD machines, and while it seems a little brutal that no partial points are given (it's 0 or 40 points once you get the DC, so you can't pass without it), it was a necessary change.
+
+This month's update comprises a large number of module updates, with Buffer Overflows now completely removed from the syllabus, and other topics such as web application testing and privilege escalation expanded on and broken into new sub-sections. I can't comment on whether this is a good update or not, as I can't see the content! But it seems to follow the same logic as the 2022 change - moving away from less common exploits, and towards deepening the methodologies taught on the course.
+
+I'm disappointed that OffSec aren't giving OSCP holders access to the new content (or at least haven't made it obvious how to claim it if they are doing). I wanted to add my opinion on the course's value for money in a little more detail than I discussed originally - there's a lot of fierce criticism of the OSCP/OffSec online, especially from competing certifying bodies and cybersecurity 'personalities'. I think a lot of this criticism *is* valid - the OSCP has a steep cost and used to have an extremely predatory pricing structure (namely, allowing the purchase of just 30 days of lab time and charging significantly more for topups, which most students will realistically need). I'm not sure about a lot of other criticism I've seen (e.g. claims that the student support is atrocious - I actually had a good experience with it, but may have got lucky), but I have to agree that there are plenty of other courses out there that teach similar things for much less (the [PEH](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course) and the new HacktheBox [CPTS](https://www.youtube.com/watch?v=2CAZqpkalgI) come to mind).
+
+There are also the classic complaints regarding its arbitrary time-based and metasploit-related restrictions, but those are old debates that I won't get into... However, whether this is a good thing or a bad thing, the OSCP still holds a lot of 'HR Power'. I can personally attest that the certification was a big factor in the success of two job interviews since I gained it, and it's still something that draws attention from recruiters, and that many cybersecurity students aspire towards.
+
+I won't say much more - I just wanted to add a small update to this post reflecting my thoughts on the recent changes. But I will add that I still think the OSCP is worth the money *if* you can afford it (i.e. with support from an employer). If you're looking to break into cybersecurity and you're on a budget, I'd avoid it. But I still can't deny the value of its recognition with employers, and that I think is the main benefit of the certification. Maybe in a few years this will be different as other providers gain more recognition and OffSec gets priced out, but for now it's a good thing to have on your CV.
